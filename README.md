@@ -38,9 +38,3 @@ Running the script creates `outputs/register_a.csv`, `outputs/register_b.csv` an
 - Avoid interpreting the numeric score as a calibrated posterior probability. It is a *log likelihood ratio* without a prior.
 - Processing sensitive administrative records requires data protection, pseudonymization, secure infrastructure, audit trails, and institutional authorization.
 
-## Next steps for a job application
-
-- Compare deterministic vs probabilistic linkage, and report precision/recall trade-offs.
-- Introduce birth-year errors and compare different multi-pass blocking rules.
-- Add an explicit three-way decision: match / possible match (manual review) / non-match.
-- Benchmark scalable candidate generation with PySpark on a much larger synthetic data set.
